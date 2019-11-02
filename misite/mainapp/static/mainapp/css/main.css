@@ -1,3 +1,10 @@
+.menu {
+    color: red;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: blue;
+}
 .main {
     color: aqua;
 }
