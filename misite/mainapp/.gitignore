@@ -1,0 +1,4 @@
+*.рус
+*.pyc
+.idea
+*.sqlite3

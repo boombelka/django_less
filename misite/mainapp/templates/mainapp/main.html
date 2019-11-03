@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Main</title>
-    <link rel="stylesheet" href="/static/mainapp/css/main.css">
-</head>
-<header>
-    {% include 'mainapp/includes/inc_menu.html' %}
-</header>
-<body>
-    <h1 class="main">Главная</h1>
-</body>
-</html>
+{% extends 'mainapp/base.html' %}
+
+{% block title %}
+    <title>Контакты</title>
+{% endblock %}
+
+{% block body %}
+<h3>Контакты</h3>
+{% endblock %}

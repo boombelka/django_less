@@ -5,6 +5,9 @@
 .menu a:hover {
     color: blue;
 }
+.menu li{
+    float: left;
+}
 .main {
     color: aqua;
 }

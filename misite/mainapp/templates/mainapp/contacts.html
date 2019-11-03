@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contacts</title>
-</head>
-<header>
-    {% include 'mainapp/includes/inc_menu.html' %}
-</header>
-<body>
-    <h1>Контакты</h1>
+{% extends 'mainapp/base.html' %}
 
-</body>
-</html>
+{% block title %}
+<title>Контакты</title>
+{% endblock %}
+
+{% block body %}
+<h3>Контакты</h3>
+{% endblock %}

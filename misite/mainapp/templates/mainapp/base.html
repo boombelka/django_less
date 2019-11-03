@@ -8,7 +8,16 @@
     {% block css %}
     {% endblock %}
 </head>
+<header>
+    {% include 'mainapp/includes/inc_menu.html' %}
+</header>
 <body>
+
+{% block body %}
+{% endblock %}
+
+{% block js %}
+{% endblock %}
 
 </body>
 </html>
