@@ -1,13 +1,21 @@
 .menu {
     color: red;
-    text-decoration: none;
+    list-style:none;
+    margin-right: 20px;
+    padding-right: 10px;
 }
 .menu a:hover {
     color: blue;
 }
+
 .menu li{
     float: left;
-}
+    }
+
 .main {
     color: aqua;
+}
+
+h3 {
+    clear: both;
 }

@@ -4,12 +4,20 @@ from django.shortcuts import render
 
 
 def main(request):
-    return render(request, 'mainapp/main.html')
+    context = {
+    'title': 'Главная',
+    'username': 'иван'
+    }
+    return render(request, 'mainapp/main.html', context)
 
 
 def products(request):
-    return render(request, 'mainapp/products.html')
+    context = {
+        'title': 'Продукты',
+        'products': ['Банан', 'Яблоко', 'Груша']
+    }
+    return render(request, 'mainapp/products.html', context)
 
 
 def contacts(request):
-    return render(request, 'mainapp/contacts.html')
+    return render(request, 'mainapp/contacts.html', {'title': 'Контакты'})
